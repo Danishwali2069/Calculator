@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="opnap" class="btn">
+            <p class="caltext">Calculator</p>
+        </button>
+        <div class="dir-box" id="vis-box">
+            <div id="header">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle" id="close"></div>
+            </div>
+            <div id="box">
+                <div id="disp">0000</div>
+                <div id="num-box">
+                    <button class="num-btn" onclick="appendNumber('9')" >9</button>
+                    <button class="num-btn" onclick="appendNumber('8')" >8</button>
+                    <button class="num-btn" onclick="appendNumber('7')" >7</button>
+                    <button class="num-btn clear" onclick="clearDisplay()">C</button>                    
+                    <button class="num-btn" onclick="appendNumber('6')" >6</button>
+                    <button class="num-btn" onclick="appendNumber('5')" >5</button>
+                    <button class="num-btn" onclick="appendNumber('4')" >4</button>
+                    <button class="num-btn operation" onclick="appendOperation('/')" >/</button>                   
+                    <button class="num-btn" onclick="appendNumber('3')" >3</button>
+                    <button class="num-btn" onclick="appendNumber('2')" >2</button>
+                    <button class="num-btn" onclick="appendNumber('1')" >1</button>
+                    <button class="num-btn operation" onclick="appendOperation('-')" >-</button>
+                    <button class="num-btn" onclick="appendNumber('0')" >0</button>
+                    <button class="num-btn operation" onclick="appendOperation('+')" >+</button>
+                    <button class="num-btn operation" onclick="appendOperation('*')" >*</button>
+                    <button class="num-btn equal" id="cal" onclick="calculate()" >enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

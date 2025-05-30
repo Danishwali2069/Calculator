@@ -1,0 +1,125 @@
+body {
+    background-color: #DF928E;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    background-color: #EAD2AC;
+    height: 750px;
+    flex-direction: column;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    background-color: #DF928E;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.caltext {
+    position: absolute;
+    margin-top: 26px;
+    margin-left: -25px;
+    font-size: large;
+    font-family: monospace;
+}
+
+.dir-box {
+    height: 750px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 35px;
+    width: 600px;
+    background-color: #C58882;
+    border: 2px solid black;
+    box-shadow: 7px 6px 5px #1c1f1e;
+}
+
+.circle {
+    border: 2px solid black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #D1DEDE;
+    margin: 5px;
+    box-shadow: 4px 2px 5px #1c1f1e;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    background-color: #DF928E;
+    border: 2px solid black;
+    box-shadow: 7px 3px 5px #1c1f1e;
+}
+
+#disp {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    font-size: xx-large;
+    font-family: monospace;
+    background-color: #1D201F;
+    border: 2px solid black ;
+    color: #D1DEDE;
+    letter-spacing: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 7px 6px 5px #1c1f1e;
+}
+
+#num-box {
+    width: 300px;
+    height: 400px;
+    background-color: #EAD2AC;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 7px 4px 5px #1c1f1e;
+}
+
+.num-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #D1DEDE;
+    border: 2px solid black;
+    margin: 4px;
+    border-radius: 15px;
+    box-shadow: 7px 6px 5px #1c1f1e;
+    font-size: larger;
+}
+
+.clear {
+    background-color: #e3bf84;
+}
+
+#cal {
+    background-color: #DF928E;
+}
