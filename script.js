@@ -2,13 +2,6 @@ let app = document.getElementById("opnap");
 let visBox = document.querySelector("#vis-box");
 let cls = document.getElementById("close");
 let calDisp = document.getElementById("disp");
-// let app2 = document.getElementById("opnagecal");
-// let ageVisBox = document.getElementById("age-vis-box");
-// let clsAge = document.getElementById("clsagebox");
-
-
-// app2.addEventListener("click" , ()=> {ageVisBox.style.visibility = "visible"});
-// clsAge.addEventListener("click" , ()=> {ageVisBox.style.visibility = "hidden"});
 
 app.addEventListener("click" , ()=> {visBox.style.visibility = "visible"});
 cls.addEventListener("click" , ()=> {visBox.style.visibility = "hidden"});
